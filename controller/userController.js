@@ -5,7 +5,7 @@ const userData = require("../user.json");
 const { v4: uuidv4 } = require("uuid");
 
 router.get("/", (req, res) => {
-  res.send("Hello World");
+  res.send("Welcome Random User API");
 });
 
 router.get("/random", (req, res) => {
